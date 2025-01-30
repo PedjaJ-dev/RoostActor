@@ -1,0 +1,43 @@
+@import './base.css';
+
+body {
+  height: 100vh; /* Make the container's height equal to the viewport height */
+  width: 100vw; /* Make the container's width equal to the viewport width */
+  background-color: white !important;
+  color:black;
+}
+
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+    background-color: aliceblue;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+    background-color: aliceblue;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
